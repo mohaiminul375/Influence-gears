@@ -79,3 +79,13 @@ a {
 }
 
 /* main container */
+.logo-container{
+    width: 900px;
+    /* background: red; */
+    margin: 150px auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-column-gap:20px ;
+}
