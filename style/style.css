@@ -153,3 +153,31 @@ a {
     margin-bottom: 8px;
 }
 /* footer  */
+footer{
+    height: 200px;
+    background: #0A0826;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-content{
+    
+}
+.footer-title{
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.cright{
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.footer-description{
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.fa-facebook, .fa-instagram, .fa-twitter, .fa-youtube{
+    margin-left: 5px;
+    font-size: 20px;
+}
