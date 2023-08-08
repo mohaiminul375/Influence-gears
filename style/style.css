@@ -181,3 +181,35 @@ footer{
     margin-left: 5px;
     font-size: 20px;
 }
+/* ----------responsive style------------ */
+/* ----Mobile-------- */
+
+@media only screen and (max-width:576px) {
+body{
+    width: 100%;
+}
+nav{
+    flex-direction: column;
+}
+nav>ul{
+    flex-direction: column;
+}
+.banner{
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+.logo-container{
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+}
+.products-container{
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
+}
+ .featured-product{
+    width: 100%;
+    flex-direction: column-reverse;
+ }   
+}
