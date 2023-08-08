@@ -84,7 +84,6 @@ a {
 /* main container */
 .logo-container {
     width: 900px;
-    /* background: red; */
     margin: 150px auto;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -132,3 +131,25 @@ a {
     font-size: 14px;
     color: #787885;
 }
+/* featured product */
+.featured-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 150px auto;
+}
+.featured-content{
+    margin-left: 50px;
+}
+.featured-title{
+    color: #0A0826;
+    font-size: 38px;
+    margin-bottom: 8px;
+}
+.featured-description{
+    color: #6C6C6C;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+/* footer  */
